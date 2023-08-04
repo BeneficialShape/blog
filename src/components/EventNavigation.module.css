@@ -1,0 +1,52 @@
+:root {
+  --bgcolor: #fbd997;
+  --link: #fab833;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover,
+.active {
+  color: var(--bgcolor);
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: var(--bgcolor);
+}
